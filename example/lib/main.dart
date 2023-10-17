@@ -317,14 +317,15 @@ class MyHomePageState extends State<MyHomePage> {
             ),
           },
           extensions: [
-            // TagWrapExtension(
-            //     tagsToWrap: {"table"},
-            //     builder: (child) {
-            //       return SingleChildScrollView(
-            //         scrollDirection: Axis.horizontal,
-            //         child: child,
-            //       );
-            //     }),
+            TagWrapExtension(
+                tagsToWrap: {"table"},
+                builder: (child) {
+                  return SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    // Dirty hack, but we should set width for the child
+                    child: SizedBox(width: 1000, child: child),
+                  );
+                }),
             TagExtension(
               tagsToExtend: {"tex"},
               builder: (context) => Math.tex(
