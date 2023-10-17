@@ -384,6 +384,10 @@ class MyHomePageState extends State<MyHomePage> {
             }
             return '';
           },
+          onTapNode: (node, wordIndex, words) {
+            debugPrint(
+                'Tapped wordIndex "$wordIndex" word: "${words[wordIndex]}" node: $node words: $words');
+          },
         ),
       ),
     );

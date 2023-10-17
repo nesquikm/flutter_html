@@ -52,6 +52,7 @@ class Html extends StatefulWidget {
     required this.data,
     this.onLinkTap,
     this.onAnchorTap,
+    this.onTapNode,
     this.extensions = const [],
     this.onCssParseError,
     this.shrinkWrap = false,
@@ -69,6 +70,7 @@ class Html extends StatefulWidget {
     @required dom.Document? document,
     this.onLinkTap,
     this.onAnchorTap,
+    this.onTapNode,
     this.extensions = const [],
     this.onCssParseError,
     this.shrinkWrap = false,
@@ -87,6 +89,7 @@ class Html extends StatefulWidget {
     @required this.documentElement,
     this.onLinkTap,
     this.onAnchorTap,
+    this.onTapNode,
     this.extensions = const [],
     this.onCssParseError,
     this.shrinkWrap = false,
@@ -113,6 +116,9 @@ class Html extends StatefulWidget {
   /// A function that defines what to do when an anchor link is tapped. When this value is set,
   /// the default anchor behaviour is overwritten.
   final OnTap? onAnchorTap;
+
+  /// A function that defines what to do when a node is tapped
+  final OnTapNode? onTapNode;
 
   /// A function that defines what to do when CSS fails to parse
   final OnCssParseError? onCssParseError;
@@ -171,6 +177,7 @@ class _HtmlState extends State<Html> {
       htmlData: documentElement,
       onLinkTap: widget.onLinkTap,
       onAnchorTap: widget.onAnchorTap,
+      onTapNode: widget.onTapNode,
       onCssParseError: widget.onCssParseError,
       shrinkWrap: widget.shrinkWrap,
       style: widget.style,

@@ -24,6 +24,12 @@ typedef OnTap = void Function(
   html.Element? element,
 );
 
+typedef OnTapNode = void Function(
+  html.Node? node,
+  int wordIndex,
+  List<String> words,
+);
+
 typedef OnCssParseError = String? Function(
   String css,
   List<css_parser.Message> errors,
@@ -33,6 +39,7 @@ class HtmlParser extends StatefulWidget {
   final html.Element htmlData;
   final OnTap? onLinkTap;
   final OnTap? onAnchorTap;
+  final OnTapNode? onTapNode;
   final OnCssParseError? onCssParseError;
   final bool shrinkWrap;
   final Map<String, Style> style;
@@ -47,6 +54,7 @@ class HtmlParser extends StatefulWidget {
     required this.htmlData,
     required this.onLinkTap,
     required this.onAnchorTap,
+    required this.onTapNode,
     required this.onCssParseError,
     required this.shrinkWrap,
     required this.style,
