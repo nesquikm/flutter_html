@@ -1,0 +1,185 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "flutter_html",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "example",
+      "cwd": "example",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "example (profile mode)",
+      "cwd": "example",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "example (release mode)",
+      "cwd": "example",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_all",
+      "cwd": "packages/flutter_html_all",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_all (profile mode)",
+      "cwd": "packages/flutter_html_all",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_all (release mode)",
+      "cwd": "packages/flutter_html_all",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_audio",
+      "cwd": "packages/flutter_html_audio",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_audio (profile mode)",
+      "cwd": "packages/flutter_html_audio",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_audio (release mode)",
+      "cwd": "packages/flutter_html_audio",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_iframe",
+      "cwd": "packages/flutter_html_iframe",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_iframe (profile mode)",
+      "cwd": "packages/flutter_html_iframe",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_iframe (release mode)",
+      "cwd": "packages/flutter_html_iframe",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_math",
+      "cwd": "packages/flutter_html_math",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_math (profile mode)",
+      "cwd": "packages/flutter_html_math",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_math (release mode)",
+      "cwd": "packages/flutter_html_math",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_svg",
+      "cwd": "packages/flutter_html_svg",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_svg (profile mode)",
+      "cwd": "packages/flutter_html_svg",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_svg (release mode)",
+      "cwd": "packages/flutter_html_svg",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_table",
+      "cwd": "packages/flutter_html_table",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_table (profile mode)",
+      "cwd": "packages/flutter_html_table",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_table (release mode)",
+      "cwd": "packages/flutter_html_table",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_html_video",
+      "cwd": "packages/flutter_html_video",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_html_video (profile mode)",
+      "cwd": "packages/flutter_html_video",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_html_video (release mode)",
+      "cwd": "packages/flutter_html_video",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
