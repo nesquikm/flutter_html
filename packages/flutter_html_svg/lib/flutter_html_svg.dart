@@ -183,7 +183,7 @@ class SvgHtmlExtension extends HtmlExtension {
 
     if (dataUri?.namedGroup('encoding') == 'base64') {
       return SvgPicture.memory(
-        base64.decode(data.trim()),
+        base64.decode(data.replaceAll('\n', '').trim()),
         width: imageStyle.width?.value,
         height: imageStyle.height?.value,
       );

@@ -155,7 +155,8 @@ class ImageBuiltIn extends HtmlExtension {
 
   Widget _base64ImageRender(ExtensionContext context, Style imageStyle) {
     final element = context.styledElement as ImageElement;
-    final decodedImage = base64.decode(element.src.split("base64,")[1].trim());
+    final decodedImage = base64
+        .decode(element.src.replaceAll('\n', '').split("base64,")[1].trim());
 
     return Image.memory(
       decodedImage,
